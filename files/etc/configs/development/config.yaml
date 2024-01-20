@@ -1,0 +1,11 @@
+db_management_system:
+  host: localhost
+  port: 5432
+  username: postgres
+  password: postgres
+  db_name: management_system
+  migrations_file: ./scripts/postgres/system_management
+
+app:
+  name: "migrate-app"
+  version: "1.0"

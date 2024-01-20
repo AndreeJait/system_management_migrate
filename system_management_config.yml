@@ -1,0 +1,5 @@
+development:
+  dialect: postgres
+  dir: scripts/postgres/system_management
+  datasource: sslmode=disable
+  table: go_migrations
